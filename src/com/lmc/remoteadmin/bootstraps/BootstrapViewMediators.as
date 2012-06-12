@@ -18,7 +18,8 @@ package com.lmc.remoteadmin.bootstraps
 		{
 			// Application 
 			//mediatorMap.mapView(LicensePopUp, LicensePopUpMediator,null,false,false);
-
+			mediatorMap.mapView(ProfileClientSettingsView, ProfileClientSettingsMediator);
+			mediatorMap.mapView(DiagnosticsView, DiagnosticsViewMediator);
 
 			// Profile specific
 			mediatorMap.mapView(ProfilesView, ProfilesViewMediator);

@@ -24,7 +24,8 @@ package com.lmc.remoteadmin.bootstraps
 			commandMap.mapEvent(ApplicationEvent.CLEAR_CACHE_REQUEST, ClearCacheRequestCommand);
 			commandMap.mapEvent(LicenseEvent.OPEN, OpenLicenseCommand);
 			commandMap.mapEvent(LicenseEvent.RESPONSE, SaveLicenseResponseCommand);
-			
+			commandMap.mapEvent(HelpEvent.OPENHELP, OpenHelpCommand);
+
 			// Stage Web View
 			//commandMap.mapEvent(StageWebViewEvent.OPEN, OpenStageWebView);
 			//commandMap.mapEvent(StageWebViewEvent.CLOSE, OpenStageWebView);
