@@ -48,7 +48,7 @@ package com.lmc.remoteadmin.bootstraps
 
 			mediatorMap.mapView(MoreView, MoreViewMediator);
 			mediatorMap.mapView(remoteadmin_desktop, remoteadmin_desktopMediator);
-			mediatorMap.mapView(FilterListlayout, FilterListLayoutMediator, null,false, false);
+			mediatorMap.mapView(FilterListlayout, FilterListLayoutMediator, FilterListlayout,false, false);
 			mediatorMap.mapView(InputUserDialog, InputUserDialogMediator,null,false,false);
 			mediatorMap.mapView(InputDialog, InputDialogMediator,null,false,false);
 			

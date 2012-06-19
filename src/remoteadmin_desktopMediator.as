@@ -26,12 +26,14 @@ package
 		}
 		override public function onRegister():void{
 			// set the firstView
+
 			view.homenav.firstView = preferences.firstview;
 			//view.homenav.popToFirstView();
 			view.homenav.pushView(preferences.firstview);
 			dispatch(new BusyPopupEvent(BusyPopupEvent.CLOSE));
 			// listen for events
 			this.addContextListener(ApplicationEvent.LOAD_FIRST_VIEW, setView);
+			
 			
 
 		}

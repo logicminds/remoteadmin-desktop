@@ -18,6 +18,9 @@ mx|Legend {
 		markerHeight: 20;
 		
 	}
+	mx|PieSeries{
+		fontSize: 16;	
+	}
 	mx|LegendItem{
 		fontSize: 18;
 	}
@@ -32,6 +35,9 @@ mx|Legend {
 	mx|LegendItem{
 		fontSize: 16;
 	}
+	mx|PieSeries{
+		fontSize: 14;	
+	}
 }
 @media (application-dpi: 160){
 	.mylegendStyle
@@ -43,6 +49,9 @@ mx|Legend {
 	}
 	mx|LegendItem{
 		fontSize: 14;
+	}
+	mx|PieSeries{
+		fontSize: 12;	
 	}
 }
 mx|BarChart{

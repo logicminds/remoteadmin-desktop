@@ -25,6 +25,8 @@ package com.lmc.remoteadmin.bootstraps
 			commandMap.mapEvent(LicenseEvent.OPEN, OpenLicenseCommand);
 			commandMap.mapEvent(LicenseEvent.RESPONSE, SaveLicenseResponseCommand);
 			commandMap.mapEvent(HelpEvent.OPENHELP, OpenHelpCommand);
+			commandMap.mapEvent(ChangeViewEvent.LOAD_VIEW, LoadViewCommand);
+
 
 			// Stage Web View
 			//commandMap.mapEvent(StageWebViewEvent.OPEN, OpenStageWebView);
@@ -107,9 +109,14 @@ package com.lmc.remoteadmin.bootstraps
 			//Analytics
 			commandMap.mapEvent(AnalyticsTrackerEvent.TRACKPAGEVEW, TrackPageViewCommand);
 		
+			//Bookmarks
+			commandMap.mapEvent(ClientRequestEvent.BOOKMARKS, GetClientBookmarksCommand);
+			commandMap.mapEvent(RestClientEvent.BOOKMARKS, GetClientBookmarksResultCommand);
+			
 			//status
 			commandMap.mapEvent(ClientRequestEvent.STATUS, GetClientStatusCommand);
 			commandMap.mapEvent(RestClientEvent.STATUS, GetClientStatusResultCommand);
+			
 			//puppetclasses
 			commandMap.mapEvent(ClientRequestEvent.PUPPETCLASSES, GetClassesRequestCommand);
 			commandMap.mapEvent(RestClientEvent.PUPPETCLASSES, GetClassesResultCommand);
