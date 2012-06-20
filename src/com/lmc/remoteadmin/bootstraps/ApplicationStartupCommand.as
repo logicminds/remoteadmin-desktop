@@ -9,7 +9,7 @@ package com.lmc.remoteadmin.bootstraps
 	import com.lmc.ralib.components.LicensePopUp;
 	import com.lmc.ralib.components.LicensePopUpMediator;
 	import org.robotlegs.mvcs.Command;
-
+	import com.lmc.ralib.bootstraps.*;
 	public class ApplicationStartupCommand extends Command
 	{
 		public function ApplicationStartupCommand()

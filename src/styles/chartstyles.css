@@ -13,9 +13,9 @@ mx|Legend {
 @media (application-dpi: 320){
 	.mylegendStyle
 	{
-		fontSize: 20;
-		markerWidth: 20;
-		markerHeight: 20;
+		fontSize: 18;
+		markerWidth: 18;
+		markerHeight: 18;
 		
 	}
 	mx|PieSeries{
@@ -28,9 +28,9 @@ mx|Legend {
 @media (application-dpi: 240){
 	.mylegendStyle
 	{
-		fontSize: 18;
-		markerWidth: 18;
-		markerHeight: 18;
+		fontSize: 16;
+		markerWidth: 16;
+		markerHeight: 16;
 	}
 	mx|LegendItem{
 		fontSize: 16;
@@ -42,9 +42,9 @@ mx|Legend {
 @media (application-dpi: 160){
 	.mylegendStyle
 	{
-		fontSize: 16;
-		markerWidth: 16;
-		markerHeight: 16;
+		fontSize: 14;
+		markerWidth: 14;
+		markerHeight: 14;
 		
 	}
 	mx|LegendItem{

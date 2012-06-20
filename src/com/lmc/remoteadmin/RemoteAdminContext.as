@@ -1,13 +1,14 @@
 package com.lmc.remoteadmin
 {
 	import com.lmc.ralib.Events.*;
-	import com.lmc.remoteadmin.bootstraps.*;
+	import com.lmc.ralib.bootstraps.*;
 	import com.lmc.ralib.components.*;
 	import com.lmc.ralib.controller.*;
 	import com.lmc.ralib.model.*;
 	import com.lmc.ralib.services.*;
 	import com.lmc.ralib.Events.RestClientEvent;
 	import com.lmc.ralib.view.*;
+	import com.lmc.remoteadmin.bootstraps.ApplicationStartupCommand;
 	
 	import flash.display.DisplayObjectContainer;
 	import flash.events.EventDispatcher;
@@ -33,6 +34,7 @@ package com.lmc.remoteadmin
 		private function onPreloadComplete(event:ApplicationEvent):void{
 			this.removeEventListener(ApplicationEvent.STARTUP_COMMAND_COMPLETE, onPreloadComplete);
 			// Startup complete
+			mediatorMap.mapView(remoteadmin_desktop, remoteadmin_desktopMediator);
 			new BootstrapViewMediators(mediatorMap);
 			super.startup();
 		}
