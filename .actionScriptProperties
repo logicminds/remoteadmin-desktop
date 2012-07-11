@@ -12,8 +12,6 @@
       <libraryPathEntry kind="1" linkType="1" path="libs"/>
       <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/analytics.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/as3corelib.swc" useDefaultLinkType="false"/>
-      <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/eskimo_theme_10.swc" useDefaultLinkType="false"/>
-      <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/eskimo-lib-1.0.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/iNativeDialog.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/mobiletheme_ios/bin/mobiletheme_ios.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/mobile/mobilecomponents.swc" useDefaultLinkType="false"/>
@@ -21,10 +19,11 @@
       <libraryPathEntry kind="3" linkType="1" path="/mobile_examples/bin/mobile_examples.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/Users/corey/swcs/robotlegs-framework-v1.5.2.swc" useDefaultLinkType="false"/>
       <libraryPathEntry kind="3" linkType="1" path="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/themes/Mobile/mobile.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="/piaMobileTheme/bin/piaMobileTheme.swc" useDefaultLinkType="false"/>
     </libraryPath>
     <sourceAttachmentPath/>
   </compiler>
-  <theme themeIsDefault="false" themeIsSDK="false" themeLocation="${EXTERNAL_THEME_DIR}/Eskimo_theme_"/>
+  <theme themeIsDefault="false" themeIsSDK="false" themeLocation="${EXTERNAL_THEME_DIR}/eskimo"/>
   <applications>
     <application path="remoteadmin_desktop.mxml">
       <airExcludes/>

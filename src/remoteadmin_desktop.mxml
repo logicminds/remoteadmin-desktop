@@ -5,7 +5,7 @@
 					   preinitialize="initdata()" width="1024" height="768"
 					   addedToStage="onComplete()" contentBackgroundColor="#FFFFFF"
 					   splashScreenImage="@Embed(source='assets/images/splashimage.png')"
-					   splashScreenScaleMode="zoom" applicationDPI="160"
+					   splashScreenScaleMode="zoom" 
 					   applicationComplete="onApplicationComplete()" xmlns:remoteadmin="com.lmc.remoteadmin.*">
 	<fx:Style source="styles/buttonstyles.css" /> 
 	<fx:Style source="styles/chartstyles.css" /> 
@@ -41,7 +41,7 @@
 	</s:SplitViewNavigator> -->
 	
 	<s:TabbedViewNavigator id="tabnavigators" width="100%" height="100%">
-		<s:ViewNavigator label="Home" icon="{homeicon}" width="100%" height="100%" id="homenav" />
+		<s:ViewNavigator label="Home" icon="{homeicon}" width="100%" height="100%" id="homenav" firstView="com.lmc.ralib.view.HomeView" />
 		<s:ViewNavigator label="Hosts" icon="{systemsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.HostsView" id="hostsnav"/>
 		<s:ViewNavigator label="Reports" icon="{reportsicon}" width="100%" height="100%" firstView="com.lmc.ralib.view.ReportsView" id="reportsnav"/>
 		<s:ViewNavigator label="Facts" icon="{facticon}" width="100%" height="100%" firstView="com.lmc.ralib.view.FactsView" id="factsnav"/>

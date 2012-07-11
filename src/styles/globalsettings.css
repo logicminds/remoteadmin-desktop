@@ -1,5 +1,6 @@
 /* CSS file */
 @namespace s "library://ns.adobe.com/flex/spark";
+@namespace controls "com.pialabs.eskimo.controls.*";
 s|TabbedViewNavigatorApplication{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
 }
@@ -7,6 +8,7 @@ s|View{
 	backgroundImage: "@embed('assets/subtlebackground.png')";
 
 }
+
 @media (application-dpi: 240){
 	
 	s|List{
